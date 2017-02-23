@@ -46,12 +46,15 @@
                           Content="Admin"/>
             </StackPanel>
             <Button x:Name="saveButton" Content="Save"
+                    Click="saveButton_Click"
                     Margin="0,10"/>
         </StackPanel>
         <!-- right column -->
         <StackPanel Grid.Column="1" Margin="10,10">
             <TextBlock Text="Image:"/>
-            
+            <Image Source="Assets/employee01.png"
+                   Height="100" Width="70"
+                   HorizontalAlignment="Left"/>
             <Button Content="Browse" Margin="0,10"/>
         </StackPanel>
     </Grid>
